@@ -1,0 +1,107 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+/*-------------- 1st section -------------*/
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 20px;
+}
+.orange-color {
+  color: orange;
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, rgb(255, 94, 0));
+  color: white;
+  font-weight: 700;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+a:hover {
+  color: rgb(5, 2, 15);
+  text-decoration: underline;
+}
+.first-section {
+  display: flex;
+  background-image: url(img/top-banner.png);
+  background-repeat: no-repeat;
+  margin-bottom: 150px;
+}
+.half-width {
+  margin-top: 40px;
+  width: 46%;
+  padding-left: 2%;
+  margin-left: 4%;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+.half-width img {
+  width: 70%;
+  border-radius: 7%;
+}
+
+/* ---------2nd section----------- */
+.second-section {
+  display: flex;
+  background-image: url(img/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.second-half-width {
+  width: 46%;
+  padding-left: 2%;
+  margin-left: 4%;
+  text-align: justify;
+  margin-bottom: 150px;
+}
+.second-half-width img {
+  width: 50%;
+  border-radius: 8%;
+}
+#text-padding {
+  padding-right: 15%;
+}
+
+/* ----------third section----------- */
+.third-section {
+  background-image: url(img/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#experience-title {
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.container {
+  display: flex;
+  margin-bottom: 150px;
+  padding-right: 70px;
+}
+.third-width {
+  width: 45%;
+  margin-left: 5%;
+  text-align: center;
+  box-shadow: 10px 10px 40px gray;
+  padding: 50px 10px;
+  border-radius: 10px;
+}
+.first-border-slice {
+  border-left: 6px solid;
+  border-image: linear-gradient(rgb(35, 95, 224), red);
+  border-image-slice: 1;
+}
+.second-border-slice {
+  border-left: 6px solid;
+  border-image: linear-gradient(rgb(0, 255, 149), rgb(233, 91, 47));
+  border-image-slice: 1;
+}
+
+/* ---------footer section-------- */
+#footer-part {
+  text-align: center;
+}
